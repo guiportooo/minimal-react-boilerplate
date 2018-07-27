@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 
 const title = 'My Minimal React Webpack Babel Setup with Hot Reloading!';
 
-ReactDOM.render(<div>{title}</div>, document.getElementById('app'));
+ReactDOM.render(
+  <div>
+    {title}
+  </div>, document.getElementById('app'),
+);
 
 module.hot.accept();
